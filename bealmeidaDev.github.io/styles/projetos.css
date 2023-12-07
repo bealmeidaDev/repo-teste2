@@ -1,0 +1,42 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+
+    font-family: Avenir, Roboto, Helvetica, san-serif;
+    font-size: 80%;
+    margin-right: 2rem;
+}
+article {
+    display: grid;
+
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+article>img {
+    justify-self: center;
+}
+
+article>h1 {
+    margin: 1rem;
+}
+
+article>ul {
+    margin: 1rem;
+}
+
+article>p {
+    margin: 1rem;
+}
+
+article>button {
+    margin-top: auto;
+    background: teal;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
